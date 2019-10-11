@@ -1,0 +1,42 @@
+ html, body .capa{
+ 	height: 100%;
+
+}
+
+
+body{
+	border: 1px solid red;
+	background: url(imagens/Capa-BARbearia2.png),
+				url(imagens/ruido2.png),
+				linear-gradient(50deg,#1C1C1C,#E8E8E8);
+				background-attachment: fixed;
+}
+
+
+.img-logo{
+	height: 80px;
+	width: 132px;
+	display: block;
+	background: url(imagens/Barbearia.png) no-repeat;
+	background-size: contain;
+	color: #000;
+	margin-top: -20px;
+	color: transparent;
+
+}
+
+nav.nav-transparente{
+	padding: 10px 0;
+	background:rgba(0,0,0,0.6);
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FFFFFF;
+}
+
+/*-- Imagem de capa --*/
+
+.capa{
+	
+}
